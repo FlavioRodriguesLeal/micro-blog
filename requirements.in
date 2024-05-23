@@ -1,0 +1,12 @@
+fastapi # frame work api web 
+uvicorn # servidor web, protocolo ASGI(Asynchronous Server Gateway Interface), rodas aplicações assincronas do fastapi
+sqlmodel #Descrever tabelas banco de dados em classes do python
+typer #Ferramenta linha de comando para administrar o projeto
+dynaconf # biblioteca para administrar as configurações, obter variável configurações externa, cloud
+jinja2 # biblioteca para template, 
+python-jose[cryptography] #biblioteca para inclipitação de tokin jwt
+passlib[bcrypt] # para hash password
+python-multipart # para upload de imagem
+psycopg2-binary # driver para conectar no banco de dados PostGres
+alembic # para database migration, transformas as classes python em statement creator sql para criar as tabelas
+rich # melhoria visual do terminal
